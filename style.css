@@ -1,0 +1,37 @@
+/* Element CSS */
+
+body {
+   background-color: #1F2937;
+   font-family: roboto;
+}
+
+header {
+    display: flex;
+    color: white;
+    height: 60px;
+    justify-content: flex-start;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-self: center;
+    justify-self: flex-end;
+}
+
+li {
+    margin: 5px;
+}
+
+/* Header specific css */
+
+.hero-logo {
+    align-self: center;
+    justify-self: flex-start;
+    padding-left: 5%;
+    padding-right: 60%;
+}
+
+/*  */
