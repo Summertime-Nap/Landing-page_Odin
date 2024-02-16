@@ -10,13 +10,16 @@ header {
     color: white;
     height: 60px;
     justify-content: flex-start;
-
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 ul {
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-self: center;
     justify-self: flex-end;
 }
@@ -25,13 +28,41 @@ li {
     margin: 5px;
 }
 
+button {
+    background-color: aqua;
+    height: 20px;
+    width: 40 px;
+    border-radius: 7px;
+}
+
 /* Header specific css */
 
 .hero-logo {
     align-self: center;
     justify-self: flex-start;
-    padding-left: 5%;
-    padding-right: 60%;
+    /* padding-left: 5%; */
+    /* padding-right: 60%; */
 }
 
-/*  */
+/* website description section */
+
+.disc {
+    height: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.disc .text {
+    height: 90%;
+    width: 40%;
+}
+
+.disc .placeholder {
+    height: 90%;
+    width: 40%;
+    background-color: gray;
+}
